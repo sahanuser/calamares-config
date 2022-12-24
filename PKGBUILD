@@ -1,5 +1,5 @@
 # Maintainer: Sahan Rasanjana <sahan.user@gmail.com>
-pkgname=asl-calamares-config
+pkgname=calamares-config
 _destname="/etc"
 pkgver=1
 pkgrel=1
@@ -12,8 +12,7 @@ depends=()
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
-#source=(${pkgname}::"git+${url}/${pkgname}")
-source=("etc/")
+source=(${pkgname}::"git+${url}/${pkgname}")
 sha256sums=('SKIP')
 package() {
 	install -dm755 ${pkgdir}${_destname}
