@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 3000
+        interval: 8000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -37,26 +37,35 @@ Presentation
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
+    }
+
+    Slide {
+        Image {
+            id: background
+            source: "slide1.png"
+            width: 200; height: 200
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        } 
+   }
+
+    Slide {
+       Text {
             anchors.horizontalCenter: background.horizontalCenter
             anchors.top: background.bottom
-            text: "This is a customizable QML slideshow.<br/>"+
-                  "Distributions should provide their own slideshow and list it in <br/>"+
-                  "their custom branding.desc file.<br/>"+
-                  "To create a Calamares presentation in QML, import calamares.slideshow,<br/>"+
-                  "define a Presentation element with as many Slide elements as needed."
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
-        }
-    }
-
-    Slide {
-        centeredText: qsTr("This is a second Slide element.")
-    }
-
-    Slide {
-        centeredText: qsTr("This is a third Slide element.")
+            text: "Welcome to Aster Linux <br/>"+
+                  "This Distro is still in development appimage funcationality isn't been developed yet!<br/>"+
+                  "it will be available soon as it finished.For more information visit github page<br/>"+
+		  "<html><style type="text/css"></style><a href="https://github.com/asterlinux">google</a></html>"
+        	  onLinkActivated: Qt.openUrlExternally(link)
+        	  MouseArea {
+            		id: mouseArea
+            		anchors.fill: parent
+            		cursorShape: Qt.PointingHandCursor
+            		wrapMode: Text.WordWrap
+            		width: presentation.width
+            		horizontalAlignment: Text.Center
+        		}
     }
 
     // When this slideshow is loaded as a V1 slideshow, only
