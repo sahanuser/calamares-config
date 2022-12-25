@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 8000
+        interval: 20000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -30,42 +30,61 @@ Presentation
 
     Slide {
 
-        Image {
-            id: background
-            source: "squid.png"
-            width: 720; height: 300
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-        }
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: background1
+        source: "slide.svg"
+        width: parent.width; height: parent.height
+        horizontalAlignment: Image.AlignCenter
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
+    	}
     }
 
     Slide {
-        Image {
-            id: background
-            source: "slide1.png"
-            width: 720; height: 300
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-        } 
-   }
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: background2
+        source: "slide2.svg"
+        width: parent.width; height: parent.height
+        horizontalAlignment: Image.AlignCenter
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
+    	}
+    }
 
     Slide {
-        Image {
-            id: background
-            source: "squid.png"
-            width: 200; height: 200
-            fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
-        }
-       Text {
-            anchors.horizontalCenter: background.horizontalCenter
-            anchors.top: background.bottom
-            text: "Welcome to Aster Linux <br/>"+
-                "This Distro is still in development appimage funcationality isn't been developed yet!<br/>"+
-                "it will be available soon as it finished.For more information visit github page<br/>"+
-            wrapMode: Text.WordWrap
-            width: presentation.width
-            horizontalAlignment: Text.Center
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: background3
+        source: "slide3.svg"
+        width: parent.width; height: parent.height
+        horizontalAlignment: Image.AlignCenter
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
+    	}
+
+    Text {
+        anchors.horizontalCenter: background.horizontalCenter
+        anchors.top: background.bottom
+        text: "Welcome to Aster Linux <br/>"+
+              "This Distro is still in development appimage funcationality isn't been developed yet!<br/>"+
+              "it will be available soon as it finished.For more information visit github page<br/>"+
+        wrapMode: Text.WordWrap
+        width: presentation.width
+        horizontalAlignment: Text.Center
+    	}
     }
 
     // When this slideshow is loaded as a V1 slideshow, only
