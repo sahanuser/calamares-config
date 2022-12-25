@@ -2,7 +2,6 @@
 
 git add .
 
-export PS2="Enter your commit --> "
 echo "Commit Message"
 read input
 
