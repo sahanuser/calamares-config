@@ -1,5 +1,10 @@
 #!/bin/sh
 
 git add .
-git commit -m website
+
+export PS2="Enter your commit --> "
+echo "Commit Message"
+read input
+
+git commit -m "$input"
 git push
