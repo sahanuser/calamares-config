@@ -12,7 +12,7 @@ depends=()
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
-source=(${pkgname}::"git+${url}/${pkgname}")
+source=("calamares-config.tar.gz")
 sha256sums=('SKIP')
 package() {
 	install -dm755 ${pkgdir}${_destname}
