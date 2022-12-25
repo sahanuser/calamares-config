@@ -33,7 +33,7 @@ Presentation
         Image {
             id: background
             source: "squid.png"
-            width: 200; height: 200
+            width: 720; height: 300
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
@@ -43,7 +43,7 @@ Presentation
         Image {
             id: background
             source: "slide1.png"
-            width: 200; height: 200
+            width: 720; height: 300
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         } 
@@ -51,14 +51,15 @@ Presentation
 
     Slide {
        Text {
+
             anchors.horizontalCenter: background.horizontalCenter
             anchors.top: background.bottom
             text: "Welcome to Aster Linux <br/>"+
-                  "This Distro is still in development appimage funcationality isn't been developed yet!<br/>"+
-                  "it will be available soon as it finished.For more information visit github page<br/>"+
-		  "<html><style type="text/css"></style><a href="https://github.com/asterlinux">google</a></html>"
-        	  onLinkActivated: Qt.openUrlExternally(link)
-        	  MouseArea {
+                "This Distro is still in development appimage funcationality isn't been developed yet!<br/>"+
+                "it will be available soon as it finished.For more information visit github page<br/>"+
+		        "<html><style type="text/css"></style><a href="https://github.com/asterlinux">google</a></html>"
+        	    onLinkActivated: Qt.openUrlExternally(link)
+        	    MouseArea {
             		id: mouseArea
             		anchors.fill: parent
             		cursorShape: Qt.PointingHandCursor
