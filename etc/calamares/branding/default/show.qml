@@ -59,14 +59,6 @@ Presentation
                 "it will be available soon as it finished.For more information visit github page<br/>"+
 		        "<html><style type="text/css"></style><a href="https://github.com/asterlinux">google</a></html>"
         	    onLinkActivated: Qt.openUrlExternally(link)
-        	    MouseArea {
-            		id: mouseArea
-            		anchors.fill: parent
-            		cursorShape: Qt.PointingHandCursor
-            		wrapMode: Text.WordWrap
-            		width: presentation.width
-            		horizontalAlignment: Text.Center
-        		}
     }
 
     // When this slideshow is loaded as a V1 slideshow, only
