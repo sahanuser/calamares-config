@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 3000
+        interval: 5000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -93,7 +93,7 @@ Presentation
     anchors.verticalCenterOffset: 0
 
     Image {
-        id: background3
+        id: background4
         source: "slide3.svg"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
