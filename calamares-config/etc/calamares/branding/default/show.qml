@@ -74,17 +74,6 @@ Presentation
         fillMode: Image.Stretch
         anchors.fill: parent
     	}
-
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "Welcome to Aster Linux <br/>"+
-              "This Distro is still in development appimage funcationality isn't been developed yet!<br/>"+
-              "it will be available soon as it finished.For more information visit github page<br/>"+
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-    	}
     }
 
     Slide {
