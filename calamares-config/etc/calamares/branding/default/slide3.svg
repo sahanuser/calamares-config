@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 507.99999 285.75001"
+   version="1.1"
+   id="svg16"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="slide2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs10">
+    <rect
+       x="453.99501"
+       y="427.07816"
+       width="999.78969"
+       height="249.68523"
+       id="rect680" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#d3d2d1"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.25490196"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="760"
+     inkscape:cy="564.28571"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1268"
+     inkscape:window-height="764"
+     inkscape:window-x="6"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d3d2d1" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <rect
+       style="fill:#333333;stroke-width:0.264583"
+       id="rect1400"
+       width="511.56247"
+       height="287.72116"
+       x="-1.7985935"
+       y="0.24578603" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       id="rect998"
+       width="266.84583"
+       height="155.7018"
+       x="120.57709"
+       y="65.024101"
+       style="fill:#000000;fill-opacity:0.392088;stroke-width:0.264583" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:284.613;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="127.10622"
+       y="158.60182"
+       id="text1826" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text678"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';white-space:pre;shape-inside:url(#rect680);fill:#00ffff" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#1a1a1a;stroke-width:0.264583"
+       x="186.76396"
+       y="166.62199"
+       id="text686"><tspan
+         sodipodi:role="line"
+         id="tspan684"
+         style="fill:#00ffff;stroke-width:0.264583"
+         x="186.76396"
+         y="166.62199">Linux</tspan></text>
+  </g>
+</svg>

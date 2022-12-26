@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 20000
+        interval: 3000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -35,7 +35,7 @@ Presentation
 
     Image {
         id: background1
-        source: "slide.svg"
+        source: "slide0.svg"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -51,7 +51,7 @@ Presentation
 
     Image {
         id: background2
-        source: "slide2.svg"
+        source: "slide1.svg"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -67,7 +67,7 @@ Presentation
 
     Image {
         id: background3
-        source: "slide3.svg"
+        source: "slide2.svg"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -85,6 +85,22 @@ Presentation
         width: presentation.width
         horizontalAlignment: Text.Center
     	}
+    }
+
+    Slide {
+
+    anchors.fill: parent
+    anchors.verticalCenterOffset: 0
+
+    Image {
+        id: background3
+        source: "slide3.svg"
+        width: parent.width; height: parent.height
+        horizontalAlignment: Image.AlignCenter
+        verticalAlignment: Image.AlignTop
+        fillMode: Image.Stretch
+        anchors.fill: parent
+        }
     }
 
     // When this slideshow is loaded as a V1 slideshow, only
