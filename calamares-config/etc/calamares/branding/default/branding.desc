@@ -125,8 +125,8 @@ strings:
     shortProductName:    Aster 
     version:             rolling
     shortVersion:        rolling
-    versionedName:       Aster Linux
-    bootloaderEntryName: Aster Linux
+    versionedName:       "Aster Linux"
+    bootloaderEntryName: "Aster Linux"
     productUrl:          https://asterlinux.github.io
     supportUrl:          https://asterlinux.github.io/support
     knownIssuesUrl:      https://asterlinux.github.io/issues
@@ -181,7 +181,7 @@ style:
    sidebarBackground:    "#292F34"
    sidebarText:          "#FFFFFF"
    sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+   sidebarTextHighlight: "#96cdfb"
 
 ### SLIDESHOW
 #
