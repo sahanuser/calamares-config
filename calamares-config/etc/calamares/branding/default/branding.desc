@@ -121,12 +121,12 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "Aster Linux"
+    productName:         AsterLinux
     shortProductName:    Aster 
     version:             rolling
     shortVersion:        rolling
-    versionedName:       "Aster Linux"
-    bootloaderEntryName: "Aster Linux"
+    versionedName:       AsterLinux
+    bootloaderEntryName: AsterLinux
     productUrl:          https://asterlinux.github.io
     supportUrl:          https://asterlinux.github.io/support
     knownIssuesUrl:      https://asterlinux.github.io/issues
