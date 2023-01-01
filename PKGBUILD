@@ -4,7 +4,7 @@ _destname="/etc"
 pkgver=4
 pkgrel=8
 pkgdesc="calamares for Aster Linux"
-arch=('any')
+arch=('x86_64')
 url="https://github.com/asterlinux"
 license=('GPL3')
 makedepends=('git')
@@ -14,6 +14,13 @@ provides=("${pkgname}")
 options=(!strip !emptydirs)
 source=("calamares-config.tar.gz")
 sha256sums=('SKIP')
+
+
+pkgver() {
+  date +%Y%m%d
+}
+
+
 package() {
 	install -dm755 ${pkgdir}${_destname}
 	cp -r ${srcdir}/${pkgname}/${_destname}/* ${pkgdir}${_destname}
