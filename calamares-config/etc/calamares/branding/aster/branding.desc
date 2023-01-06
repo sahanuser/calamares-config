@@ -126,7 +126,7 @@ strings:
     version:             rolling
     shortVersion:        rolling
     versionedName:       AsterLinux
-    bootloaderEntryName: AsterLinux
+    bootloaderEntryName: Aster_Linux
     productUrl:          https://asterlinux.github.io
     supportUrl:          https://asterlinux.github.io/support
     knownIssuesUrl:      https://asterlinux.github.io/issues
