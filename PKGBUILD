@@ -1,7 +1,7 @@
 # Maintainer: Sahan Rasanjana <sahan.user@gmail.com>
 pkgname=calamares-config
 _destname="/etc"
-pkgver=20230107
+pkgver=20230112
 pkgrel=1
 pkgdesc="calamares for Aster Linux"
 arch=('x86_64')
