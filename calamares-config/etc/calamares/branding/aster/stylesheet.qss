@@ -94,3 +94,5 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 #licenseItem {  }
 #licenseItemFullText {  }
 */
+
+
