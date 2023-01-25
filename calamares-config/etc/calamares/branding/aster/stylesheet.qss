@@ -96,3 +96,6 @@ QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
 */
 
 
+background-color: "#31313a";
+color: white;
+selection-background-color: white;
