@@ -2,7 +2,7 @@
 pkgname=calamares-config
 _destname="/etc"
 pkgver=20230127
-pkgrel=1
+pkgrel=2
 pkgdesc="calamares for Aster Linux"
 arch=('x86_64')
 url="https://github.com/asterlinux"
