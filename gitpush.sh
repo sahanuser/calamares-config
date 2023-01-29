@@ -2,6 +2,8 @@
 
 git add .
 
+echo "Enter your commit"
+read input
 
-git commit -m "Calamare config"
+git commit -m "$input"
 git push
