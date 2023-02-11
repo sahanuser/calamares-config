@@ -162,8 +162,8 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     #productBanner:       "banner.png"
-    productIcon:         "asterlinux-logo.png"
-    productLogo:         "asterlinux-logo.png"
+    productIcon:         "asterlinux-logo.svg"
+    productLogo:         "asterlinux-logo.svg"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "languages.png"
 
