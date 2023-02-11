@@ -131,6 +131,7 @@ strings:
     supportUrl:          https://asterlinux.github.io/support
     knownIssuesUrl:      https://asterlinux.github.io/issues
     releaseNotesUrl:     https://asterlinux.github.io/release
+    donateUrl:           https://ko-fi.com/asterlinux
 
 # These images are loaded from the branding module directory.
 #
